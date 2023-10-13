@@ -5,6 +5,10 @@ general
 		- access first field of the delimited data: '{print $1}'
 	- wc: number of...
 		- lines words chars
+	- sqlite3: select * from... where... like '%xxx%'
+		- row entry contains "xxx" string
+	- wildcards
+		- "20[0-9][0-9]-"
 
 metadata
 	- sudo apt install libimage-exiftool-perl
