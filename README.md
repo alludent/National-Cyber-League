@@ -1,1 +1,0 @@
-# National-Cyber-League
