@@ -1,0 +1,45 @@
+general
+	- unuzip .gz file -- gunzip 
+	- awk: text processing tool
+		- delimiter arg: F ' - - ' 
+		- access first field of the delimited data: '{print $1}'
+	- wc: number of...
+		- lines words chars
+
+metadata
+	- sudo apt install libimage-exiftool-perl
+	- exiftool <file>
+
+cryptography
+	- caesar, atbash: qwioebq qwoienqw
+	- base64: ends in '='
+	- hex: 0x.......
+	- morse: - .... --. / -- . -.
+	- given a numerical key (1-9)
+		- railfence ex: F daS-eefn  n KZ3eheadty.YI8lta oiwy-Q0. r aI2
+	- given a word key (qizkwcgqbs)
+		- vigenere ex: Y ln xkv lubj swlzqvkht, A vmzb pjk bbua we ddgs
+
+steganography (cryptography)
+	.jpg file --> strings
+	.bmp file --> Digital Invisible Ink Toolkit used to hide img data in another img
+
+password cracking
+	- using rockyou.txt and hashcat, 
+	- hashcat -m 0 -a 0 hashes.txt rockyou.txt
+	-m: hashtype (hashmode)
+	-a: attack mode
+
+forensics
+	- git log
+	- git checkout <branch hash>
+	- binwalk 
+		- identify other files that could be packaged into the target file
+	- dd if=green_file.png of=compressed_data.gz bs=1 skip=3243
+		- skip the first 3243 bytes in the if(input file) and save the remaining data into of (output file)
+	
+
+
+
+
+
